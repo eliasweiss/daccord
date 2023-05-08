@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+
+:root {
+    --paper-color: #F1EDE9;
+    --paper-line: #94ACD4;
+    --font-color: #314e7e;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin-bottom: 1rem;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    padding: 35px 20px;
+    color: var(--font-color);
+    background: repeating-linear-gradient(var(--paper-color), var(--paper-color) 31px, var(--paper-line) 31px, var(--paper-line) 32px);
+    font-family: 'Shadows Into Light', cursive;
+    line-height: 32p;
+    outline: 0;
+    font-size: 22px;
+}
+
+#board {
+    list-style: none;
+}
+
+#board li .is .i {
+    display: inline-block;
+}
+
+#board li .is .i:nth-of-type(5n) {
+    transform: translateX(-100%) rotate(-55deg);
+    margin-left: -5px;
+    margin-right: 1rem;
+}
