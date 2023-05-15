@@ -41,3 +41,6 @@ body {
     margin-left: -5px;
     margin-right: 1rem;
 }
+
+.test span {display: none;}
+.test:focus span {display: block;}
