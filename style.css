@@ -43,4 +43,4 @@ body {
 }
 
 .test span {display: none;}
-.test:focus span {display: block;}
+.test:focus span, .test:active span {display: block;}
